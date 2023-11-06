@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<style>
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 30px;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+  </style>
+<body>
+    <div class="glavni">
+        <div class="gv">
+            <div class="navbar">
+                <div class="navbar1">
+                    <img src="./logo.png" alt="">
+                    <div class="number">
+                        <h1>+7 (812) 660-50-54</h1>
+                        <h1>+7 (958) 111-95-03</h1>
+                        <h1>Пн-вс: с 10:00 до 21:00</h1>
+                    </div>
+                    <div class="option">
+                        <div class="sech"><i class='bx bx-search'></i>Поиск</div>
+                        <i class='bx bx-bullseye'></i>
+                        <i class='bx bx-heart' ></i>
+                        <i class='bx bx-bar-chart-alt-2' ></i>
+                        <i class='bx bx-cart' ></i>
+                    </div>
+                    <button>Войти</button>
+                </div>
+                <div class="navbar2">
+                    <div class="nv">
+                        <div class="menu">
+                            <i class='bx bx-menu' ></i>
+                            <h1 onclick="katalog()">Каталог товаров</h1>
+                        </div>
+                        <h1>О компании</h1>
+                        <h1>Акции</h1>
+                        <h1>Рассрочка 0|0|18</h1>
+                        <h1>Сервис и гарантия</h1>
+                        <h1>Опт/дропшиппинг</h1>
+                        <h1>Контакты</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="men">
+            <div class="menu2">
+                <div class="d1">
+                  <div class="dr">
+                  <img src="./icons for menu1.png" alt="">
+                  <h1>Гироскутеры</h1>
+                  </div>
+                </div>
+                <div class="d1">
+                  <div class="dr">
+                  <img src="./icons for menu.png" alt="">
+                  <h1>Электросамокаты</h1>
+                  </div>
+                </div>
+                <div class="d1">
+                  <div class="dr">
+                  <img src="./icons for menu2.png" alt="">
+                  <h1>Моноколеса</h1>
+                  </div>
+                </div>
+                <div class="d4">
+                  <div class="dr">
+                  <img src="./icons for men3u.png" alt="">
+                  <h1>Сигвеи и мини-сигвеи</h1>
+                  </div>
+                </div>
+                <div class="d5">
+                  <div class="dr">
+                  <img src="./icons for menu4.png" alt="">
+                  <h1>Электроскутеры</h1>
+                  </div>
+                </div>
+                <div class="d6">
+                  <div class="dr">
+                  <img src="./icons for men5u.png" alt="">
+                  <h1>Электровелосипеды</h1>
+                  </div>
+                </div>
+                <div class="d7">
+                  <div class="dr">
+                  <img src="./icons for menu6.png" alt="">
+                  <h1>Электроскейты</h1>
+                  </div>
+                </div>
+                <div class="d8">
+                  <div class="dr">
+                  <img src="./icons for menu7.png" alt="">
+                  <h1>Электромобили</h1>
+                  </div>
+                </div>
+                <div class="d9">
+                  <div class="dr">
+                  <img src="./icons for menu8.png" alt="">
+                  <h1>Аксессуары</h1>
+                  </div>
+                </div>
+                <div class="d10">
+                  <div class="dr">
+                  <img src="./icons for menu9.png" alt="">
+                  <h1>Умные игрушки</h1>
+                  </div>
+                </div>
+                <div class="d11">
+                  <div class="dr">
+                  <img src="./icons for menu11.png" alt="">
+                  <h1>Smart Watch</h1>
+                </div>
+                </div>
+            </div>
+            <div class="swip">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><img src="https://www.slashgear.com/wp-content/uploads/2020/06/Apple_Events_-_Special_Event_Stream_-_Apple-90.jpg" alt=""></div>
+                  <div class="swiper-slide"><img src="https://www.slashgear.com/wp-content/uploads/2020/09/Apple_Events_-_Special_Event_Stream_-_Apple-44.jpg" alt=""></div>
+                  <div class="swiper-slide"><img src="https://www.slashgear.com/wp-content/uploads/2020/09/Apple_Events_-_Special_Event_Stream_-_Apple-44.jpg" alt=""></div>
+                  <div class="swiper-slide">Slide 4</div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+            </div>
+            
+              <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+            
+              <script>
+                var swiper = new Swiper(".mySwiper", {
+                  pagination: {
+                    el: ".swiper-pagination",
+                    type: "progressbar",
+                  },
+                });
+              </script>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
